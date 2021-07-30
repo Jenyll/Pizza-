@@ -11,7 +11,7 @@ import java.util.Random;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
-//ESTA CLASSE DEVE SE OBRIGATORIAMENTE MANTIDA NO PROJETO. QUALQUER ALTERA��O REALIZADA DEVE OBEDECER A HIERARQUIA
+
 public class Principal extends JFrame implements KeyListener {
 
 	private Desenho avenida;
@@ -42,7 +42,7 @@ public class Principal extends JFrame implements KeyListener {
 		t.createBufferStrategy(2);
 	}
 
-	// EVITAR ALTERAR ESSE M�TODO
+	
 	@Override
 	public void paint(Graphics ignore) {
 		BufferStrategy strategy = getBufferStrategy();
