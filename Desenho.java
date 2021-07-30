@@ -9,7 +9,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 
-//ESTA CLASSE DEVE SE OBRIGATORIAMENTE MANTIDA NO PROJETO. QUALQUER ALTERA��O REALIZADA DEVE OBEDECER A HIERARQUIA.
+
 public class Desenho {
 	
 	private int x;
@@ -75,8 +75,7 @@ public class Desenho {
 	}
 	
 	public Rectangle getRectangle() {
-		//O atributo rectangle � utilizado para identificar a interse��o (toque)
-		//entre duas imagens atrav�s do m�todo intersects.
+		
 		return rectangle;
 	}
 
